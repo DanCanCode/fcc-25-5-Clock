@@ -1,4 +1,4 @@
-"https://DanCanCode.github.io/fcc_25-5-Clock"
+"https://DanCanCode.github.io/fcc-25-5-Clock"
 
 # Getting Started with Create React App
 

@@ -1,7 +1,7 @@
 {
   "name": "fcc-25-5-clock",
   "version": "0.1.0",
-  "homepage": "https://DanCanCode.github.io/fcc_25-5-Clock",
+  "homepage": "https://DanCanCode.github.io/fcc-25-5-Clock",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
