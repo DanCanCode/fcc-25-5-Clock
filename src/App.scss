@@ -1,14 +1,71 @@
 .App {
   text-align: center;
 
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  #App-Wrapper {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+
+    #session-settings {
+      display: flex;
+      justify-content: center;
+
+      > div {
+        padding: 10px;
+      }
+
+      button {
+        margin: 5px;
+        border: none;
+        width: 40px;
+        height: 40px;
+        padding: 0 5px 0 5px;
+        border-radius: 10px;
+      }
+
+      #break-increment,
+      #session-increment {
+        background-color: #009ffc;
+        color: white;
+        font-weight: bold;
+      }
+
+      #break-decrement,
+      #session-decrement {
+        background-color: #fc0000;
+        color: white;
+        font-weight: bold;
+      }
+    }
+
+    #timer {
+      margin: 5px;
+      button {
+        margin: 5px;
+        border: none;
+        height: 40px;
+        padding: 0 5px 0 5px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+      }
+
+      #start_stop {
+        background-color: #00fc4f;
+      }
+
+      #reset {
+        background-color: #fc9300;
+      }
+    }
   }
 }
